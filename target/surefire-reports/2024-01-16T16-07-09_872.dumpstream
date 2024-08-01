@@ -1,0 +1,4 @@
+# Created at 2024-01-16T16:07:10.499
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Ens Automation\DmpWeb\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0"  name="DMP Portal Test Suites">
+
+<!--For parallel test add parallel="tests" in suite-->
+
+        <test name="Login Test" enabled="true">
+            <classes>
+                <class name="Tests.LoginTest"></class>
+            </classes>
+        </test>
+    <test name="Register_Onward Test" enabled="true">
+        <classes>
+            <class name="Tests.RegisterTest"></class>
+        </classes>
+    </test>
+    <test name="ManageNumbers Test" enabled="true">
+        <classes>
+            <class name="Tests.ManageNumbersTest"></class>
+        </classes>
+    </test>
+    <test name="Info Test" enabled="true">
+        <classes>
+            <class name="Tests.InfoTest"></class>
+        </classes>
+    </test>
+    <test name="Edit Profile Test" enabled="true">
+        <classes>
+            <class name="Tests.EditProfileTest"></class>
+        </classes>
+    </test>
+    <test name="Search Test" enabled="true">
+        <classes>
+            <class name="Tests.SearchTest"></class>
+        </classes>
+    </test>
+    <test name="ContactUs Test" enabled="true">
+        <classes>
+            <class name="Tests.ContactUsTest"></class>
+        </classes>
+    </test>
+    <test name="BlockUnblock Test" enabled="true">
+        <classes>
+            <class name="Tests.BlockUnblockTest"></class>
+        </classes>
+    </test>
+
+<!--    <test name="Portal1Test">-->
+<!--        <parameter name="portal" value="portal1" />-->
+<!--        <classes>-->
+<!--            <class name="Tests.LoginTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Portal2Test">-->
+<!--        <parameter name="portal" value="portal2" />-->
+<!--        <classes>-->
+<!--            <class name="Tests.LoginTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Chrome Tests Execution">-->
+<!--    <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="FireFox Tests Execution">-->
+<!--        <parameter name="browserName" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+        <!--  Suite  -->
